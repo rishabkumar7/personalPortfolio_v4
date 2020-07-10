@@ -100,8 +100,8 @@ export const footerData = {
     },
     {
       id: uuidv1(),
-      name: 'dev',
-      url: '',
+      name: 'dev-to',
+      url: 'https://dev.to/rishabk7',
     },
   ],
 };
