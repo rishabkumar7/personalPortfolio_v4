@@ -11,17 +11,17 @@ export const headData = {
 export const heroData = {
   title: 'Hello, my name is',
   name: 'Rishab',
-  subtitle: '',
+  subtitle: 'I am a Cloud Developer',
   cta: 'Know More',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: 'I try to create noice web experiences. I am experienced in Amazon Web Services and can help clients with several related technologies.',
+  paragraphOne: 'I try to create nice web experiences. I am experienced in Amazon Web Services and can help clients with several related technologies.',
   paragraphTwo: 'A young technical guy with experience in creating solutions for customers.',
   paragraphThree: 'Dynamic and goal-oriented. Confident and poised in interactions with individuals at all levels. Focused and dedicated; I have a good eye for detail and put in my best effort in time management and prioritization.',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'http://rishabkumar.ml', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -30,8 +30,8 @@ export const projectsData = [
     id: uuidv1(),
     img: '01.png',
     title: 'Covid Dashboard',
-    info: '',
-    info2: '',
+    info: 'Track COVID status in Canada',
+    info2: 'Built with React, React bootstrap and ChartJS.',
     url: 'https://covid-19.rishabkumar.ga/',
     repo: 'https://github.com/rishabkumar7/covid-19', // if no repo, the button will not show up
   },
@@ -39,8 +39,8 @@ export const projectsData = [
     id: uuidv1(),
     img: '05.jpg',
     title: 'Weather Dashboard',
-    info: '',
-    info2: '',
+    info: 'Get a detialed overview for weather in your favourite cities.',
+    info2: 'Built with VueJS, DarkSky API and hosted on Netlify',
     url: 'https://weatherdashboard.rishabkumar.ga/',
     repo: 'https://github.com/rishabkumar7/weatherDashboard', // if no repo, the button will not show up
   },
@@ -48,8 +48,8 @@ export const projectsData = [
     id: uuidv1(),
     img: '04.jpg',
     title: 'My Blog Site',
-    info: '',
-    info2: '',
+    info: 'Read my great articles about AWS and other related technologies',
+    info2: 'Built with Gatsby and hosted on Netlify',
     url: 'https://blog.rishabkumar.ga',
     repo: 'https://github.com/rishabkumar7/myblog', // if no repo, the button will not show up
   },
@@ -57,8 +57,8 @@ export const projectsData = [
     id: uuidv1(),
     img: '06.jpg',
     title: 'Cloud Notes',
-    info: '',
-    info2: '',
+    info: 'I took some note while preparing for my Cloud certifications',
+    info2: 'And decided to publish them for the cloud community',
     url: 'https://rishabkumar7.github.io/CloudNotes/',
     repo: 'https://github.com/rishabkumar7/CloudNotes', // if no repo, the button will not show up
   },
@@ -66,8 +66,8 @@ export const projectsData = [
     id: uuidv1(),
     img: '07.jpg',
     title: 'Hacker News Clone',
-    info: '',
-    info2: '',
+    info: 'Created a clone of famous site HackerNews',
+    info2: 'Built with VueJS and HackerNews API',
     url: 'https://hackernews-clone.rishabkumar.ga/#/',
     repo: 'https://github.com/rishabkumar7/hackernews', // if no repo, the button will not show up
   },
@@ -85,16 +85,6 @@ export const footerData = {
   networks: [
     {
       id: uuidv1(),
-      name: 'twitter',
-      url: 'https://twitter.com/rishabk7',
-    },
-    {
-      id: uuidv1(),
-      name: 'dev',
-      url: '',
-    },
-    {
-      id: uuidv1(),
       name: 'linkedin',
       url: 'https://www.linkedin.com/in/rishabkumar7/',
     },
@@ -102,6 +92,16 @@ export const footerData = {
       id: uuidv1(),
       name: 'github',
       url: 'https://github.com/rishabkumar7',
+    },
+    {
+      id: uuidv1(),
+      name: 'twitter',
+      url: 'https://twitter.com/rishabk7',
+    },
+    {
+      id: uuidv1(),
+      name: 'dev',
+      url: '',
     },
   ],
 };
