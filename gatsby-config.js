@@ -5,6 +5,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-offline`,
+    `gatsby-plugin-google-analytics`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -30,6 +31,12 @@ module.exports = {
         display: `standalone`,
         icon: 'src/images/favicon.png',
         image:'src/images/main.png'
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: process.env.GOOGLE_ANALYTICS_ID,
       },
     },
   ],
