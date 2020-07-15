@@ -1,22 +1,12 @@
-import React from 'react';
-import { Helmet } from 'react-helmet';
-import App from '../components/App';
-import { headData } from '../mock/data';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import '../style/main.scss';
-
+import React from "react"
+import { graphql } from "gatsby"
+import Layout from "../components/Layout"
+import Hero from "../components/Hero"
+import Services from "../components/Services"
+import Jobs from "../components/Jobs"
+import Projects from "../components/Projects"
+import Blogs from "../components/Blogs"
 export default () => {
-  const { title, lang, description } = headData;
-
-  return (
-    <>
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>{title || 'Rishab Kumar'}</title>
-        <html lang={lang || 'en'} />
-        <meta name="description" content={description || 'Portfolio site for Rishab Kumar'} />
-      </Helmet>
-      <App />
-    </>
-  );
-};
+  return <h2>index page</h2>
+}
+// ...GatsbyImageSharpFluid
