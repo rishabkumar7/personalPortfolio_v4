@@ -5,7 +5,7 @@ export default [
     id: 1,
     icon: <FaCode className="service-icon" />,
     title: "Web Development",
-    text: `I'm fulent in HTML/CSS and JavaScript, also familiar with various frameworks and libraries: React, Vue, etc `,
+    text: `I'm fluent in HTML/CSS and JavaScript, also familiar with various frameworks and libraries: React, Vue, etc `,
   },
   {
     id: 2,
