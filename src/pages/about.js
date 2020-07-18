@@ -21,6 +21,12 @@ const About = ({data:{about:{nodes},},}) => {
               return <span key={item.id}>{item.title}</span>
             })}
           </div>
+          <br/>
+          <a href="http://rishabkumar.ml">
+          <button type="button" className="btn">
+         Resume
+         </button>
+         </a>
         </article>
       </div>
     </section>
