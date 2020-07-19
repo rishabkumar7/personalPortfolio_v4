@@ -38,6 +38,12 @@ module.exports = {
         singleTypes: [`about`],
       },
     },
+    {
+    resolve: `gatsby-plugin-google-analytics`,
+    options: {
+      trackingId: process.env.GOOGLE_ANALYTICS_ID,
+    },
+    },
      {
        resolve: `gatsby-plugin-prefetch-google-fonts`,
        options: {
