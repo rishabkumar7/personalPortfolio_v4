@@ -17,6 +17,6 @@ export default [
     id: 3,
     icon: <FaLinux className="service-icon" />,
     title: "Linux",
-    text: `I'm a Linux enthusist and love to create cool projects with Raspberry Pi!`,
+    text: `I'm a Linux enthusiast and love to create cool projects with Raspberry Pi!`,
   },
 ]
