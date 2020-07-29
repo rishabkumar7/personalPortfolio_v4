@@ -27,7 +27,8 @@ const Hero = () => {
           <h2>Hello 👋</h2>
           <h1>I'm Rishab</h1>
           <h4>CloudOps | DevOps</h4>
-          <Link to='/contact' className="btn">Contact me</Link>
+          <Link to='/contact' className="btn">Contact me</Link> <br/>
+          <a href="https://blog.rishabkumar.ga/" className="btn">Blog</a>
           <SocialLinks />
         </div>
       </article>
