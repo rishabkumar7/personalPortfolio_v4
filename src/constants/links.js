@@ -19,7 +19,7 @@ const data = [
   {
     id: 4,
     text: "blog",
-    url: "/blog/",
+    url: "https://blog.rishabkumar.ga/",
   },
   {
     id: 5,
@@ -29,10 +29,11 @@ const data = [
 ]
 
 const tempLinks = data.map(link => {
-  return (
+  return (<>
     <li key={link.id}>
-      <Link to={link.url}>{link.text}</Link>
+      <a href={link.url}>{link.text}</a>
     </li>
+  </>
   )
 })
 // I KNOW WE CAN COMBINE IT !!!!!
