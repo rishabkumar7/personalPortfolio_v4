@@ -19,7 +19,7 @@ const data = [
   {
     id: 4,
     text: "blog",
-    url: "https://blog.rishabkumar.ga/",
+    url: "https://blog.rishabkumar.com/",
   },
   {
     id: 5,
