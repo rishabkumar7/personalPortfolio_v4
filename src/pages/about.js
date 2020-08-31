@@ -22,7 +22,7 @@ const About = ({data:{about:{nodes},},}) => {
             })}
           </div>
           <br/>
-          <a href="http://rishabkumar.ml">
+          <a href="https://resume.rishabkumar.com">
           <button type="button" className="btn">
          Resume
          </button>
