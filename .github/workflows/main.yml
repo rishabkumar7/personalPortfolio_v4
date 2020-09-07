@@ -16,11 +16,7 @@ jobs:
     - name: Deploy static site to S3 bucket
       run: aws s3 sync ./public/ s3://rishab.cloud --delete
     - name: StaticBuild
-<<<<<<< HEAD
       run: npm install && npm run build
-=======
-      run: yarn install && yarn build
->>>>>>> 928e0f04509753fb19f1644a000f47d32793584a
       env:
         GATSBY_PORTFOLIO_GITHUB_TOKEN: ${{ secrets.GATSBY_PORTFOLIO_GITHUB_TOKEN }}
         GATSBY_PORTFOLIO_FORMIK_ENDPOINT: ${{ secrets.GATSBY_PORTFOLIO_FORMIK_ENDPOINT }}
