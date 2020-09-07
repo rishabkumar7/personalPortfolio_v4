@@ -12,7 +12,7 @@ jobs:
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region: us-east-1   
     - name: Deploy static site to S3 bucket
-      run: aws s3 sync ./public/ s3://rishab.cloud --delete
+      run: aws s3 sync ./build/ s3://rishab.cloud --delete
     - name: StaticBuild
       run: npm install && npm run build
       env:
