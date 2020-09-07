@@ -1,0 +1,26 @@
+[
+  {
+    "id": 0,
+    "name": "Twitter",
+    "link": "https://twitter.com/rishabk7",
+    "icon": "/icons/twitter.svg"
+  },
+  {
+    "id": 1,
+    "name": "Github",
+    "link": "https://github.com/rishabkumar7",
+    "icon": "/icons/github.svg"
+  },
+  {
+    "id": 2,
+    "name": "LinkedIN",
+    "link": "https://linkedin.com/in/rishabkumar7",
+    "icon": "/icons/linkedin.svg"
+  },
+  {
+    "id": 3,
+    "name": "DEV",
+    "link": "https://dev.to/rishabk7",
+    "icon": "/icons/devto.svg"
+  }
+]

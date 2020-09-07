@@ -1,20 +1,10 @@
-import React from "react"
-import Layout from "../components/Layout"
-import { Link } from "gatsby"
-import SEO from "../components/SEO"
+import React from 'react';
+import { Layout, SEO } from 'components/common';
 
-const Error = () => {
-  return (
-  <Layout>  
-    <SEO title="404" description="Looks like you are lost" />
-   <main className="error-page">
-    <div className="error-container">
-      <h1> 😔 Oops, looks like you are lost!</h1>
-      <Link to="/" className="btn">Back Home</Link>
-    </div>
-  </main>
+export default () => (
+  <Layout>
+    <SEO title="404: Not found" location="/404" />
+    <h1>NOT FOUND</h1>
+    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
   </Layout>
-  )
-}
-
-export default Error
+);
