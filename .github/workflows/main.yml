@@ -18,4 +18,4 @@ jobs:
         GATSBY_PORTFOLIO_FORMIK_ENDPOINT: ${{ secrets.GATSBY_PORTFOLIO_FORMIK_ENDPOINT }}
         GATSBY_PORTFOLIO_RECAPTCHA_KEY: ${{ secrets.GATSBY_PORTFOLIO_RECAPTCHA_KEY }}
     - name: Deploy static site to S3 bucket
-      run: aws s3 sync ./build/ s3://rishab.cloud --delete
+      run: aws s3 sync ./public/ s3://rishab.cloud --delete
