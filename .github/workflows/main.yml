@@ -10,12 +10,12 @@ jobs:
       with:
         aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        aws-region: us-east-1   
-    - name: Deploy static site to S3 bucket
-      run: aws s3 sync ./build/ s3://rishab.cloud --delete
+        aws-region: us-east-1
     - name: StaticBuild
       run: npm install && npm run build
       env:
         GATSBY_PORTFOLIO_GITHUB_TOKEN: ${{ secrets.GATSBY_PORTFOLIO_GITHUB_TOKEN }}
         GATSBY_PORTFOLIO_FORMIK_ENDPOINT: ${{ secrets.GATSBY_PORTFOLIO_FORMIK_ENDPOINT }}
         GATSBY_PORTFOLIO_RECAPTCHA_KEY: ${{ secrets.GATSBY_PORTFOLIO_RECAPTCHA_KEY }}
+    - name: Deploy static site to S3 bucket
+      run: aws s3 sync ./build/ s3://rishab.cloud --delete
