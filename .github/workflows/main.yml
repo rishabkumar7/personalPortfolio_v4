@@ -17,3 +17,7 @@ jobs:
       run: aws s3 sync ./public/ s3://rishab.cloud --delete
     - name: StaticBuild
       run: yarn install && yarn build
+      env:
+        GATSBY_PORTFOLIO_GITHUB_TOKEN: ${{ secrets.GATSBY_PORTFOLIO_GITHUB_TOKEN }}
+        GATSBY_PORTFOLIO_FORMIK_ENDPOINT: ${{ secrets.GATSBY_PORTFOLIO_FORMIK_ENDPOINT }}
+        GATSBY_PORTFOLIO_RECAPTCHA_KEY: ${{ secrets.GATSBY_PORTFOLIO_RECAPTCHA_KEY }}
