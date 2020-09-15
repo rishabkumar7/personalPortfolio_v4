@@ -16,11 +16,5 @@
     "name": "LinkedIN",
     "link": "https://linkedin.com/in/rishabkumar7",
     "icon": "/icons/linkedin.svg"
-  },
-  {
-    "id": 3,
-    "name": "DEV",
-    "link": "https://dev.to/rishabk7",
-    "icon": "/icons/devto.svg"
   }
 ]
